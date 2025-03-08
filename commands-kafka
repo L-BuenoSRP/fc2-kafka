@@ -1,0 +1,7 @@
+comandos usados dentro do container do kafka, apos entrar com docker exec
+
+kafka-topics --create --topic=teste --bootstrap-server=localhost:9092 --partitions=3
+
+
+ kafka-topics --list --bootstrap-server=localhost:9092
+
